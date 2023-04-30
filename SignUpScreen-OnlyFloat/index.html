@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>WELCOME</h3>
+        <h4>Please create your account and sign-up.</h4>
+      </div>
+      <div class="box-1">
+        <label for="user-name">Username : </label>
+        <input type="text" placeholder="  your username" name="user-name" />
+        <div class="clr"></div>
+        <label for="email">Email : </label>
+
+        <input type="email" placeholder="  your email" name="email" />
+      </div>
+      <div class="box-2">
+        <label for="pass-word">Password :</label>
+        <input
+          type="text"
+          placeholder="  your password"
+          name="pass-word"
+          style="float: right"
+        />
+        <div class="clr"></div>
+        <div class="show-chkbox">
+          <input type="checkbox" name="show-password" value="password" />
+          <label for="">Show </label>
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div class="box-3">
+        <div class="birthdate">
+          <label for="birth-date" style="margin-right: 19px">
+            Birthdate :
+          </label>
+          <input type="date" />
+        </div>
+        <div class="location">
+          <label for="select" style="margin-right: 25px">Location : </label>
+          <select name="location" id="your-location">
+            <option value="0">Turkey</option>
+            <option value="1">United Kingdom</option>
+            <option value="2">Germany</option>
+            <option value="3">Italy</option>
+            <option value="4">Russia</option>
+          </select>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="box-4">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </div>
+  </body>
+</html>
